@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prueba de examen</string>
+    <string name="item_name">BICICLETA VINTAGE</string>
+    <string name="color">COLOR</string>
+    <string name="description">DESCRIPCIÓN</string>
+    <string name="description_text">Bastidor de acero ligero personalizado. Sin restaurar en hermosa
+        condición original. Ligeramente usado y bien cuidado. Completa creación de súper registro.
+    </string>
+    <string name="measurement">MEDICIÓN</string>
+    <string name="measurement_text">Con un peso que no excede los 14,5 kilogramos, estamos ante el
+        peso ideal, construida para el día a día y para durar décadas. Equipada con cambio Shimano
+        de 6 velocidades, permite afrontar cualquier ciudad o entorno que pueda presentarse.
+        Equipada con componentes útiles y de calidad necesarios para el usuario diario de la
+        bicicleta: pata de cabra, cambios, guardabarros, cubrecadenas y luces led.</string>
+    <string name="add_cart">AGREGAR AL CARRITO</string>
+    <string name="toast_like">+1 a Bicicleta Vintage</string>
+    <string name="size_m">M</string>
+    <string name="size_s">CH</string>
+    <string name="size_l">G</string>
+    <string name="size_xl">EG</string>
+    <string name="added_cart">AGREGADO AL CARRITO</string>
+    <string name="already_added">El artículo ya se encuentra en el carrito</string>
+    <string name="undo">DESHACER</string>
+</resources>

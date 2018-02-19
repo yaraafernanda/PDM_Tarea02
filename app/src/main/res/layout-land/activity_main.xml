@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.iteso.pmd_tarea2.ActivityMain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/imageSize"
+            android:scaleType="centerInside"
+            android:src="@drawable/bicycle"
+            android:layout_gravity="top"/>
+
+        <View android:layout_width="match_parent"
+            android:layout_height="@dimen/divisor"
+            android:background="@color/black" />
+
+        <RelativeLayout
+            android:padding="@dimen/app_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/activity_main_itemname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/itemTextSize"
+                android:textStyle="bold"
+                android:layout_alignBottom="@id/activity_main_likeimage"
+                android:text="@string/item_name"/>
+
+            <ImageButton
+                android:id="@+id/activity_main_likeimage"
+                android:layout_width="@dimen/likeimageSize"
+                android:layout_height="@dimen/likeimageSize"
+                android:src="@drawable/like"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                android:layout_alignParentEnd="true"
+                android:onClick="likeClick"/>
+
+            <TextView
+                android:id="@+id/activity_main_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/color"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesTextSize"
+                android:layout_marginTop="@dimen/margin"
+                android:layout_below="@id/activity_main_itemname"/>
+
+            <RadioGroup
+                android:id="@+id/activity_main_rgroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/activity_main_color">
+
+                <RadioButton
+                    android:id="@+id/activity_main_rbgray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/gray"/>
+                <RadioButton
+                    android:id="@+id/activity_main_rbbrown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/brown"/>
+                <RadioButton
+                    android:id="@+id/activity_main_rbpínk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/pink"/>
+                <RadioButton
+                    android:id="@+id/activity_main_rbblack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/black"/>
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/activity_main_sbutton"
+                android:layout_width="@dimen/buttondimen"
+                android:layout_height="@dimen/buttondimen"
+                android:text="@string/size_s"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/buttonTextSize"
+                android:layout_marginTop="@dimen/margin"
+                android:background="@drawable/button"
+                android:layout_below="@id/activity_main_rgroup"
+                android:onClick="onClick"/>
+            <Button
+                android:id="@+id/activity_main_mbutton"
+                android:layout_width="@dimen/buttondimen"
+                android:layout_height="@dimen/buttondimen"
+                android:layout_marginLeft="@dimen/marginbutton"
+                android:text="@string/size_m"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/buttonTextSize"
+                android:layout_marginTop="@dimen/margin"
+                android:background="@drawable/button"
+                android:layout_below="@id/activity_main_rgroup"
+                android:layout_toRightOf="@id/activity_main_sbutton"
+                android:onClick="onClick"/>
+            <Button
+                android:id="@+id/activity_main_lbutton"
+                android:layout_width="@dimen/buttondimen"
+                android:layout_height="@dimen/buttondimen"
+                android:layout_marginLeft="@dimen/marginbutton"
+                android:text="@string/size_l"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/buttonTextSize"
+                android:layout_marginTop="@dimen/margin"
+                android:background="@drawable/button"
+                android:layout_below="@id/activity_main_rgroup"
+                android:layout_toRightOf="@id/activity_main_mbutton"
+                android:onClick="onClick"/>
+            <Button
+                android:id="@+id/activity_main_xlbutton"
+                android:layout_width="@dimen/buttondimen"
+                android:layout_height="@dimen/buttondimen"
+                android:layout_marginLeft="@dimen/marginbutton"
+                android:text="@string/size_xl"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/buttonTextSize"
+                android:layout_marginTop="@dimen/margin"
+                android:background="@drawable/button"
+                android:layout_below="@id/activity_main_rgroup"
+                android:layout_toRightOf="@id/activity_main_lbutton"
+                android:onClick="onClick"/>
+
+            <TextView
+                android:id="@+id/activity_main_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titlesTextSize"
+                android:text="@string/description"
+                android:layout_marginTop="@dimen/margin"
+                android:layout_below="@id/activity_main_mbutton"/>
+
+            <TextView
+                android:id="@+id/activity_main_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin"
+                android:text="@string/description_text"
+                android:layout_below="@id/activity_main_desc"/>
+
+            <TextView
+                android:id="@+id/activity_main_measure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/measurement"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/margin"
+                android:textSize="@dimen/titlesTextSize"
+                android:layout_below="@id/activity_main_description"/>
+
+            <TextView
+                android:id="@+id/activity_main_measurement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin"
+                android:text="@string/measurement_text"
+                android:layout_below="@id/activity_main_measure"/>
+
+            <Button
+                android:id="@+id/activity_main_addbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin"
+                android:padding="@dimen/app_padding"
+                android:background="@color/gray"
+                android:text="@string/add_cart"
+                android:textColor="@color/white"
+                android:layout_below="@id/activity_main_measurement"
+                android:onClick="addTo"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

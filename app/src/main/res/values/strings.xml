@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ExamTest</string>
+    <string name="item_name">VINTAGE BICYCLE</string>
+    <string name="color">COLOR</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="description_text">Custom lightweight steel frame. Unrestored in beautiful original
+    condition. Lightly used and well kept. Full super record build.</string>
+    <string name="measurement">MEASUREMENT</string>
+    <string name="measurement_text">With a weight that does not exceed 14.5 kilograms, we are
+        facing the ideal weight, built for the day and for the duration of decades. Equipped with
+        Shimano 6-speed gearbox, allows to face any city or environment that may arise. Equipped
+        with useful components and quality necessary for the daily user of the bicycle: kickstand,
+        changes, fenders, chain covers and led lights.</string>
+    <string name="add_cart">ADD TO CART</string>
+    <string name="toast_like">+1 to Vintage Bicycle</string>
+    <string name="size_m">M</string>
+    <string name="size_s">S</string>
+    <string name="size_l">L</string>
+    <string name="size_xl">XL</string>
+    <string name="added_cart">ADDED TO CART</string>
+    <string name="already_added">Item is already in Cart</string>
+    <string name="undo">UNDO</string>
+</resources>

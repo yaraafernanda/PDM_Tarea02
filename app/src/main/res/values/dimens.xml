@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_padding">15dp</dimen>
+    <dimen name="itemTextSize">25dp</dimen>
+    <dimen name="likeimageSize">40dp</dimen>
+    <dimen name="titlesTextSize">15dp</dimen>
+    <dimen name="buttonTextSize">12dp</dimen>
+    <dimen name="imageSize">260dp</dimen>
+    <dimen name="divisor">2dp</dimen>
+    <dimen name="margin">10dp</dimen>
+    <dimen name="marginbutton">10dp</dimen>
+    <dimen name="radius">5dp</dimen>
+    <dimen name="strokebttn">1dp</dimen>
+    <dimen name="buttondimen">40dp</dimen>
+</resources>
